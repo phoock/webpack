@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9867a050-a4b4-4344-b3bd-b9b91cb9e1fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/configs/env.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta.js" beforeDir="false" afterPath="$PROJECT_DIR$/meta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/template/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
       <workItem from="1625557110243" duration="4672000" />
       <workItem from="1625576701371" duration="27000" />
       <workItem from="1625576875896" duration="41000" />
-      <workItem from="1625576924869" duration="32000" />
+      <workItem from="1625576924869" duration="214000" />
     </task>
     <task id="LOCAL-00001" summary="feat: test">
       <created>1625575788883</created>
@@ -83,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625575925647</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: test3">
+      <created>1625576982602</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625576982602</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +111,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="feat: test" />
     <MESSAGE value="feat: test2" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: test2" />
+    <MESSAGE value="feat: test3" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: test3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
