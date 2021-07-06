@@ -1,26 +1,21 @@
-{{#if_eq build "standalone"}}
-// The Vue build version to load with the `import` command
-// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
-{{/if_eq}}
-import Vue from 'vue'
-import App from './App'
-{{#router}}
-import router from './router'
-{{/router}}
+import Vue from "vue";
+import App from "./App.vue";
+import router from "./router";
+import "./globalStyle.less";
+import "./configs/lazy_use";
+import "./store/observable.js";
+import "./utils/directives";
+import "./utils/GlobalFilter";
+import { enums } from "@/utils/enumService";
+import { golbalMixin } from "@/utils/GlobalMixin";
 
-Vue.config.productionTip = false
+Vue.prototype.enums = enums;
+Vue.prototype.$EventBus = new Vue();
 
-/* eslint-disable no-new */
+Vue.config.productionTip = false;
+Vue.mixin(golbalMixin);
+
 new Vue({
-  el: '#app',
-  {{#router}}
   router,
-  {{/router}}
-  {{#if_eq build "runtime"}}
-  render: h => h(App)
-  {{/if_eq}}
-  {{#if_eq build "standalone"}}
-  components: { App },
-  template: '<App/>'
-  {{/if_eq}}
-})
+  render: (h) => h(App),
+}).$mount("#app");
