@@ -1,4 +1,4 @@
-# lb_lite_emr
+# lb_lite_template
 
 ## 安装依赖
 ```

@@ -7,7 +7,7 @@ const productionGzipExtensions = /\.(js|css|json|txt|html|ico|svg)(\?.*)?$/i;
 
 module.exports = {
   // 选项...
-  publicPath: "/lb_lite_emr/",
+  publicPath: "/lb_lite_template/",
   css: {
     sourceMap: true,
     loaderOptions: {
