@@ -2,7 +2,7 @@ import moment from "moment";
 
 /**
  * 公用存储页面的缓存
- * @type {{set(*, *, *): void, data: (any), get(*): *, cacheDataName: string, getData(*): *}}
+ * @type set(*, *, *): void, data: (any), get(*): *, cacheDataName: string, getData(*): *
  *  1.单独缓存每个页面的操作记录
  *  2.每个页面的路由作为当前页面的缓存数据key。如果一个页面需要保存多分不同的数据，可以在页面生成唯一的的key值就行，guid或者其他的，只要保持唯一就行。
  */
