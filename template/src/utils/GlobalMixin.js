@@ -1,5 +1,4 @@
 import { themeState, themeMutations } from "@/store/observable";
-import STable from "@/components/Table";
 import { Icon } from "ant-design-vue";
 export const LiteIcon = Icon.createFromIconfontCN({
   scriptUrl: "//at.alicdn.com/t/font_2452510_w21eliqdh7.js",
@@ -13,7 +12,7 @@ export const golbalMixin = {
       publicPath: process.env.BASE_URL, // 给静态资源使用的路径<img :src="`${publicPath}logo_scrm.svg`" />
     };
   },
-  components: { LiteIcon, STable },
+  components: { LiteIcon },
   computed: {
     globalSize() {
       return themeState.themeSize;

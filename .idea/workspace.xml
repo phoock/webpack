@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9867a050-a4b4-4344-b3bd-b9b91cb9e1fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/template/src/components/Table/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/src/components/Table/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/src/components/Table/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/utils/GlobalMixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/utils/GlobalMixin.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
       <workItem from="1625557110243" duration="4672000" />
       <workItem from="1625576701371" duration="27000" />
       <workItem from="1625576875896" duration="41000" />
-      <workItem from="1625576924869" duration="1428000" />
+      <workItem from="1625576924869" duration="3488000" />
     </task>
     <task id="LOCAL-00001" summary="feat: test">
       <created>1625575788883</created>
@@ -104,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625577414514</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: test6">
+      <created>1625578746103</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625578746103</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +135,8 @@
     <MESSAGE value="feat: test3" />
     <MESSAGE value="feat: test4" />
     <MESSAGE value="feat: test5" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: test5" />
+    <MESSAGE value="feat: test6" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: test6" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
